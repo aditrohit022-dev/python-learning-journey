@@ -1,1 +1,15 @@
+#make a revers string programm 
 
+string="hcbgvbbbcbhvcvbva"
+rev_str=""
+for char in string :
+   if char == char :
+      rev_str=char+rev_str
+print(rev_str)
+
+#make a programm to find first non reapeted alphabet 
+
+word="hvhvhvhcvkdfvkkovfhvbjhvhvkkjdhvjh" 
+for char in word:
+  if word.count(char) == 1:
+print(char)
