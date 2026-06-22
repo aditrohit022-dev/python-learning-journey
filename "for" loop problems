@@ -13,3 +13,12 @@ word="hvhvhvhcvkdfvkkovfhvbjhvhvkkjdhvjh"
 for char in word:
   if word.count(char) == 1:
 print(char)
+
+#make a factorial calculator using while loop
+
+num=100
+fac=1
+while num>0 :
+    fac=fac*num
+    num=num-1
+print("factorial of number is,",  fac )
