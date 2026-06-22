@@ -21,4 +21,33 @@ fac=1
 while num>0 :
     fac=fac*num
     num=num-1
-print("factorial of number is,",  fac )
+print("factorial of number is,",  fac ) 
+
+
+#validate input:keep asking for a valide input from user until they input number btw 1 to 10
+
+while True :
+   num =int(input("enter the value b/w 1 and 10 :"))
+   if 1<=num<=10 :
+       print("thanks!")
+       break
+   else :
+       print("plese enter valid number:")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
