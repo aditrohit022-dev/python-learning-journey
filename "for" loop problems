@@ -45,9 +45,17 @@ if num > 1 :
         break 
 print(is_prime)
 
+#check if all elemants in an list are unique if a duplicate is found exit the loop and print duplicate 
+       LIST=["apple","mango","banana","apple","watermelon"] 
 
+LIST=["banana","mango","banana","apple","watermelon"] 
+uniqe_item=set() 
 
-
+for item in LIST:
+    if item in uniqe_item:
+        print("duplicate :",item ) 
+        break 
+    uniqe_item.add(item)
 
 
 
