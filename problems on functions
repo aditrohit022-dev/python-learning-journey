@@ -1,0 +1,6 @@
+#basic function syntax : write a function to cal a squre of that number and hold that result in a variable
+number=19
+def square(number):
+    return number**2 
+result=square(number) 
+print(result)
