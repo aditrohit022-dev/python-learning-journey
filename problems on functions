@@ -4,3 +4,10 @@ def square(number):
     return number**2 
 result=square(number) 
 print(result)
+
+#create a function that takes two numbers as parmeters and return thai sum 
+
+def add(numone,numtwo):
+    return numone+numtwo 
+print(add(46547,5354576)) 
+
