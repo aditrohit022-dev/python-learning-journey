@@ -32,10 +32,16 @@ print("Area :",A, "-Circumferance :",C)
 
 # make function that geet the user if no name is provided ,it should greet witha default name 
 
+def greet(name="user"):
+    return "Hello, " + name +  " !"
+print(greet())                         
+# with user name 
+print(greet("adit))
 
+# create a lambda function to compute a cube of a number 
 
-
-
+cube= lambda x : x **3 
+print(cube(6))
 
 
 
