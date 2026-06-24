@@ -11,16 +11,48 @@ def add(numone,numtwo):
     return numone+numtwo 
 print(add(46547,5354576)) 
 
-# create a function that returns both the aera and circumferance of circle
+# create a function that returns both circumfrerence and area  | # for more precition upto two decimal 
 
-import math 
-
+import math                                                  
 def circle_stats(radius):
     area = math.pi*(radius**2)
     cf= 2*math.pi*radius 
     return area,cf
 A,C=circle_stats(9)
+print("Area :",A, "-Circumferance :",C) 
+
+#
+
+def circle_stats(radius):                                      
+    area = 3.14*(radius**2)                                 
+    cf= 2*3.14*radius                                       
+    return area,cf                                              
+A,C=circle_stats(9)
 print("Area :",A, "-Circumferance :",C)  
+
+# make function that geet the user if no name is provided ,it should greet witha default name 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
