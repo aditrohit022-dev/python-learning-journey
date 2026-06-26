@@ -43,8 +43,22 @@ print(greet("adit))
 cube= lambda x : x **3 
 print(cube(6))
 
+# make a function that tkes variable no of arguments and give their sum use *args 
+def sum_all(*args):
+    return sum(args) 
+print(sum_all(1,2,3))
+print(sum_all(4,5,6,7,8,9,10)) 
 
+#create a function that accrpts any number of keyword arguments and print them in the formate on key:word ,use **kwargs 
 
+ef print_kwargs(**kwargs): 
+    for key,value in kwargs.items():
+        print(f"{key}:{value}")
+    
+print_kwargs(name="dwij",power="karate")
+print_kwargs(name="dwij",power="karate",enemy="vansh") 
+
+# write a  generator function that yeilds a even number upto specifed limit
 
 
 
