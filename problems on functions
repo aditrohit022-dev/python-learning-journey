@@ -60,6 +60,11 @@ print_kwargs(name="dwij",power="karate",enemy="vansh")
 
 # write a  generator function that yeilds a even number upto specifed limit
 
+ef even_gen(limit):
+    for z in range(2,limit+1,2):
+         yield z 
+for num in even_gen(15):
+    print(num)
 
 
 
