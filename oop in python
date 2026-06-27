@@ -13,3 +13,35 @@ my_car2= Car("toyota","supra M37")
 print(my_car2.brand)
 print(my_car2.model)
 
+#class method and self: add a method to the class Car that dislpy full name of a car with brand and model 
+
+class Car:
+    def __init__ (self,brand,model):
+        self.brand=brand
+        self.model=model 
+    def full_name(self):
+        return f"{self.brand} {self.model}"
+my_car=Car("toyota","supra")
+print(my_car.full_name())
+print("")
+print(my_car.brand)
+print(my_car.model)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
