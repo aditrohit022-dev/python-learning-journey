@@ -42,7 +42,7 @@ class Electriccar(Car):
 my_ele_car=Electriccar("tesla","tesla s ","85kWh") 
 print(my_ele_car.full_name()),print("battry size"),print(my_ele_car.bettry_size)
 
-
+#encapuslation: modify the car class to encapuslate the brand attribute,making it private, and provide a better method
 
 
 
