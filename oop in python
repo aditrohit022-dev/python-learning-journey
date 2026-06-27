@@ -1,2 +1,15 @@
-# basics of object 
+# basics of object : create a class named Car in which add attributs like brand and model of car
+
+class Car:
+    def __init__ (self,brand,model):
+        self.brand=brand
+        self.model=model 
+
+my_car= Car("maruti suzuki","swift")  
+print(my_car.brand)
+print(my_car.model) 
+print(" ")
+my_car2= Car("toyota","supra M37") 
+print(my_car2.brand)
+print(my_car2.model)
 
