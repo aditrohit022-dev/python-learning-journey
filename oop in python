@@ -27,8 +27,20 @@ print("")
 print(my_car.brand)
 print(my_car.model)
 
+# inheritance: createa class Elactriccar that inherits Car class and add a attribute--"bettry_size"
 
-
+class Car:
+    def __init__ (self,brand,model):
+        self.brand=brand
+        self.model=model 
+    def full_name(self):
+        return f"{self.brand} {self.model}"
+class Electriccar(Car):
+    def __init__(self,brand,model,bettry_size):
+        super().__init__(brand,model) 
+        self.bettry_size=bettry_size 
+my_ele_car=Electriccar("tesla","tesla s ","85kWh") 
+print(my_ele_car.full_name()),print("battry size"),print(my_ele_car.bettry_size)
 
 
 
