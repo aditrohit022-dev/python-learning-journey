@@ -32,6 +32,10 @@ def greet(name,greet="hello"):
     print(f"{greet},{name}")
 greet("adit",greet="hnji !")
 
+#cache return values : implaemant a decorator that caches the return values of a function , so then when it's called 
+with the same arguments, the  cached value returns insted of re-exucuting the function 
+
+
 
 
 
