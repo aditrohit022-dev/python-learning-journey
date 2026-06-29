@@ -35,7 +35,26 @@ greet("adit",greet="hnji !")
 #cache return values : implaemant a decorator that caches the return values of a function , so then when it's called 
 with the same arguments, the  cached value returns insted of re-exucuting the function 
 
+import time 
 
+def cache(func):
+    cache_value={} 
+    print(cache_value)
+    def wrraper(*args):
+        if args in cache_value:
+            return cache_value[args]
+        result=func(*args)
+        cache_value[args]=result
+        return result 
+    return wrraper
+
+@cache
+def long_run_fun(a,b):
+    time.sleep(3)
+    return a + b 
+print(long_run_fun(7,8)) 
+print(long_run_fun(7,8))
+print(long_run_fun(3,4))
 
 
 
